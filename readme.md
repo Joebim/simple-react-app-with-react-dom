@@ -22,7 +22,7 @@ react-dom-example/
 
 ## ⚙️ Setup
 
-### 1. 📦 Install Packages
+### 1. Install Packages
 ```bash
 npm init -y
 npm install react react-dom
@@ -36,7 +36,7 @@ npm install --save-dev webpack webpack-cli webpack-dev-server babel-loader @babe
 }
 ```
 
-### 3. ⚙️ Webpack Config (`webpack.config.js`)
+### 3. Webpack Config (`webpack.config.js`)
 ```js
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -71,7 +71,7 @@ module.exports = {
 };
 ```
 
-### 4. 🧾 `.gitignore`
+### 4. `.gitignore`
 ```
 /node_modules
 /dist
@@ -117,7 +117,7 @@ root.render(<App />);
 }
 ```
 
-### 4. 🏃 Run Your App
+### 4. Run Your App
 ```bash
 npm start
 ```
